@@ -1,0 +1,174 @@
+body {
+  color: #290001;
+  /* boja teksta*/
+  margin: 0;
+  /*da ne bi dodirivao ivice*/
+  text-align: center;
+  font-family: 'Merriweather', serif;
+}
+
+.top-container {
+  background-color: #556052;
+  position: relative;
+  padding-top: 100px;
+  /* that pushed everything a little bit down*/
+  line-height: normal;
+}
+
+h1 {
+  color: #66BFBF;
+  font-family: 'Sacramento', cursive;
+  font-size: 5.625rem;
+  /* 90px/16=562.5% */
+  margin: 50px auto 0 auto;
+  /* auto keep it centered */
+}
+
+h2 {
+  color: #66BFBF;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2.5rem;
+  /* 60px. 1em je 16 px. 40/16=2.5 */
+  font-weight: normal;
+  padding-bottom: 10px;
+}
+
+h3 {
+  color: #f2efea;
+  font-family: 'Montserrat', sans-serif;
+}
+
+p {
+  line-height: 2;
+}
+
+hr {
+  border: dotted #d8d3cd 6px;
+  /* tackice, boja i sirina */
+  border-bottom: none;
+  /* da nestane donja ivica i da imamo samo jednu liniju */
+  width: 4%;
+  /* od roditelja */
+  margin: 100px auto;
+}
+
+a {
+  color: #8ad7c1;
+  font-family: 'Montserrat', sans-serif;
+  /* kao i za ostali tekst */
+  margin: 10px 20px;
+  /* malo da ih razmaknemo */
+  text-decoration: none;
+  /* ne zelimo da bude underline */
+}
+
+a:hover {   /* jer smo skinuli underline, da se vidi da su clickable */
+  color: #c6fced;   /* a little bit lighter color */
+}
+
+.middle-container {
+  background-color: #af6b58;
+  padding: 100px 0;
+}
+
+.bottom-container {
+  background-color: #4e8d7c;
+  padding: 50px 0 20px;
+}
+
+.dev {
+  text-decoration: underline;
+}
+
+.bottom-cloud {
+  position: absolute;
+  /*taking out of the flow, so mountain can fit in*/
+  left: 250px;
+  bottom: 300px;
+}
+
+.top-cloud {
+  position: absolute;
+  right: 300px;
+  top: 40px;
+}
+
+.vesna-img {
+  display: inline-block;
+  width: 330px;
+  margin-top: 35px;
+}
+
+.intro {
+  width: 30%;
+  /* 30% of it's parent container-middle container */
+  margin: auto;
+}
+
+.contact-message {
+  width: 40%;
+  margin: 40px auto 60px;
+  /* auto je levo i desno */
+}
+.copyright {
+  color: #c6fced; /* boja ista kao za a:hover */
+  font-size: 0.75rem;
+  padding: 20px 0;
+}
+.web {
+  font-size: 33px;
+}
+
+.skill-row {
+  width: 50%;
+  margin: 100px auto 100px auto; /* margina gore i dole, da se malo odalji od elemenata */
+  text-align: left;
+}
+
+.html-css-img {
+  width: 25%;
+  /*25% od width parenta, tj skill row, koji je na 50% width ekrana*/
+  float: left;
+  margin-right: 30px;
+  /* da se malo odmakne slika od teksta */
+  margin-bottom: 25px;
+}
+
+.java-script-img {
+  width: 25%;
+  float: left;
+  margin-right: 30px;
+}
+
+.btn {
+  background: #11CDD4;
+  background: -webkit-gradient( linear, left top, left bottom, color-stop(0.05, #f24537), color-stop(1, #c62d1f) );
+  background: -moz-linear-gradient( center top, #f24537 5%, #c62d1f 100% );
+  background: -ms-linear-gradient( center top, #f24537 5%, #c62d1f 100% );
+  background: -o-linear-gradient( center top, #f24537 5%, #c62d1f 100% );
+  background: -webkit-linear-gradient( center top, #f24537 5%, #c62d1f 100% );
+  background-image: -ms-linear-gradient(top, #11CDD4, #11999E);
+  background-image: -o-linear-gradient(top, #11CDD4, #11999E);
+  background-image: linear-gradient(to bottom, #11CDD4, #11999E);
+  -webkit-border-radius: 8;
+  -moz-border-radius: 8;
+  border-radius: 8px;
+  font-family: 'Merriweather', serif;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #30E3CB;
+  background: -webkit-gradient( linear, left top, left bottom, color-stop(0.05, #f24537), color-stop(1, #c62d1f) );
+  background: -moz-linear-gradient( center top, #f24537 5%, #c62d1f 100% );
+  background: -ms-linear-gradient( center top, #f24537 5%, #c62d1f 100% );
+  background: -o-linear-gradient( center top, #f24537 5%, #c62d1f 100% );
+  background: -webkit-linear-gradient( center top, #f24537 5%, #c62d1f 100% );
+  background-image: -ms-linear-gradient(top, #30E3CB, #2BC4AD);
+  background-image: -o-linear-gradient(top, #30E3CB, #2BC4AD);
+  background-image: linear-gradient(to bottom, #30E3CB, #2BC4AD);
+  text-decoration: none;
+}
